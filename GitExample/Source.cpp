@@ -6,6 +6,11 @@ int Add(int a, int b)
 	return a + b;
 }
 
+int Subtract(int a, int b)
+{
+	return a - b;
+}
+
 int main()
 {
 	int a, b;
@@ -14,5 +19,6 @@ int main()
 	cout << "Enter b: ";
 	cin >> b;
 	cout << Add(a, b) << endl;
+	cout << Subtract(a, b) << endl;
 	return 0;
 }
