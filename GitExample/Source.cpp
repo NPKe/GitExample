@@ -11,6 +11,11 @@ int Subtract(int a, int b)
 	return a - b + c - d;
 }
 
+int Multi(int a, int b)
+{
+	return a * b;
+}
+
 int main()
 {
 	int a, b;
