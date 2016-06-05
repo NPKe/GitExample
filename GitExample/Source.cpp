@@ -8,7 +8,7 @@ int Add(int a, int b)
 
 int Subtract(int a, int b)
 {
-	return a - b;
+	return a - b + c - d;
 }
 
 int main()
