@@ -8,7 +8,12 @@ int Add(int a, int b)
 
 int Subtract(int a, int b)
 {
-	return a - b + c - d;
+	return a;
+}
+
+int Devide(int a, int b)
+{
+	return a /b;
 }
 
 int Multi(int a, int b)
